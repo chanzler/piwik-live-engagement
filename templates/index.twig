@@ -1,0 +1,14 @@
+<section id="LiveEngagementWrapper">	
+
+	<div id="LiveEngagementChart" style="margin-top:10px;">
+		<div title="" index="0" value="" class="red"><span class="title"></span><span class="bar"></span><span class="percent"></span></div>
+		<div title="" index="1" value="" class="red"><span class="title"></span><span class="bar"></span><span class="percent"></span></div>
+		<div title="" index="2" value="" class="red"><span class="title"></span><span class="bar"></span><span class="percent"></span></div>
+	</div>
+	
+</section>
+<script type="text/javascript">
+  $(document).ready(function () {
+    require('piwik/LiveEngagement').initSimpleRealtimeLiveEngagementWidget({{ refreshInterval }});
+  });
+</script>

@@ -1,0 +1,49 @@
+#LiveEngagementWrapper {
+	width:100%;
+	max-width:600px;
+	margin:0 auto;
+	text-align:left;
+	display:block;
+}
+#LiveEngagementChart {
+	margin:10px auto;
+	width:90%;
+	position:relative;
+}
+#LiveEngagementChart div,#LiveEngagementChart div span {
+	height:20px;	
+}
+#LiveEngagementChart div .percent {
+	width:40px;
+	position: absolute;
+	top:0;
+	right:-40px;
+	text-align:right;
+}
+#LiveEngagementChart div .title {
+	width:30px;
+	position: absolute;
+	top:0;
+	left:0px;
+	text-align:right;
+}
+#LiveEngagementChart div {
+	position: absolute;
+	display:block;
+	height:20px;
+	width:80%;
+	margin:0 0 5px 5px;
+	text-align:left;
+	max-width:600px;
+}
+#LiveEngagementChart div .bar {
+	position: absolute;
+	width:0;
+	top:0;
+	left:0px;
+}
+.red .bar {
+	background:red;
+	opacity: .4; 
+	filter:Alpha(Opacity=40);
+}

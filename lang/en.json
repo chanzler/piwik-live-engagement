@@ -1,0 +1,13 @@
+{
+    "LiveEngagement": {
+        "SettingsIntroduction": "Here you can specify the settings for this plugin.",
+        "SettingsRefreshInterval": "Refresh interval",
+        "SettingsRefreshIntervalDescription": "Defines how often the widget should be updated (minutes).",
+        "SettingsRefreshIntervalHelp": "Enter a number which is >= 1",
+        "Description": "Show an overview of user-engagement",
+        "WidgetName": "Engagement",
+        "New": "New",
+        "Returning": "Returning",
+        "Engaged": "Engaged",
+    }
+}

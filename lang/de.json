@@ -1,0 +1,13 @@
+{
+    "LiveEngagement": {
+        "SettingsIntroduction": "Hier können Sie das Verhalten des Plugins konfigurieren.",
+        "SettingsRefreshInterval": "Aktualisierungsintervall",
+        "SettingsRefreshIntervalDescription": "Legt fest, in welchem Zeitabstand in Minuten das Widget aktualisiert wird.",
+        "SettingsRefreshIntervalHelp": "Geben Sie eine Zahl >= 1 an",
+        "Description": "Zeigt eine Übersicht des aktuellen UserEngagements",
+        "WidgetName": "Engagement",
+        "New": "Neu",
+        "Returning": "Wiederkehrend",
+        "Engaged": "Engagiert",
+    }
+}

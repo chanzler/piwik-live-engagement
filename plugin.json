@@ -1,0 +1,22 @@
+{
+    "name": "LiveEngagement",
+    "version": "0.1.0",
+    "description": "Live widget that displays user-engagement.",
+    "theme": false,
+    "keywords": ["user", "engagement", "widget", "live"],
+    "homepage": "http://github.com/chanzler/piwik-live-engagement",
+    "license": "GPL-3.0+",
+	"donate": {
+        "paypal": "paypal@familiekanzler.de"
+	},
+    "authors": [
+        {
+            "name": "Frank Kanzler",
+            "email": "frank@intersolve.de",
+            "homepage": "http:\/\/www.intersolve.de"
+        }
+    ],
+    "require": {
+        "piwik": ">=2.0.0"
+    }
+}
