@@ -104,7 +104,7 @@ class API extends \Piwik\Plugin\API {
 					AND DATE_SUB('".$refTime."', INTERVAL ? MINUTE) < visit_last_action_time
         			AND visitor_returning = 1
 					AND visitor_days_since_first >= 30
-					AND (30 * visitor_count_visits) / visitor_days_since_first >=20
+					AND (30 * visitor_count_visits) / visitor_days_since_first >=40
         
                 ";
         $loyal = \Piwik\Db::fetchOne($loyalSql, array(
