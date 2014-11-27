@@ -30,9 +30,9 @@ $(function() {
         }, 'get');
         ajaxRequest.setFormat('json');
         ajaxRequest.setCallback(function (data) {
-        	data.sort(function(a, b){
-        	    return b.percentage - a.percentage;
-        	});
+        	//data.sort(function(a, b){
+        	//    return b.percentage - a.percentage;
+        	//});
         	$.each( data, function( index, value ){
               	var pc = value['percentage'];
         		pc = pc > 100 ? 100 : pc;
@@ -44,11 +44,11 @@ $(function() {
 
         	});
 			//animation
-			var vertical_offset = 0; // Beginning distance of rows from the table body in pixels
-			for ( index = 0; index < data.length; index++) {
-				$("#LiveEngagementChart").find("div[index="+index+"]").stop().delay(1 * index).animate({ top: vertical_offset}, 1000, 'swing').appendTo("#LiveEngagementChart");
-				vertical_offset += settings['rowHeight'];
-			}
+			//var vertical_offset = 0; // Beginning distance of rows from the table body in pixels
+			//for ( index = 0; index < data.length; index++) {
+			//	$("#LiveEngagementChart").find("div[index="+index+"]").stop().delay(1 * index).animate({ top: vertical_offset}, 1000, 'swing').appendTo("#LiveEngagementChart");
+			//	vertical_offset += settings['rowHeight'];
+			//}
             // schedule another request
             setTimeout(function () { refreshLiveEngagementWidget(element, refreshAfterXSecs); }, refreshAfterXSecs * 1000);
         });
@@ -66,9 +66,9 @@ $(function() {
         }, 'get');
         ajaxRequest.setFormat('json');
         ajaxRequest.setCallback(function (data) {
-        	data.sort(function(a, b){
-        	    return b.percentage - a.percentage;
-        	});
+        	//data.sort(function(a, b){
+        	//    return b.percentage - a.percentage;
+        	//});
             $('#LiveEngagementChart').each(function() {
                 // Set table height and width
     			$("#LiveEngagementChart").height((data.length*settings['rowHeight']));
